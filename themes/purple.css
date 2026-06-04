@@ -1,0 +1,188 @@
+::-moz-selection {
+  color: white;
+  background: #c73a62;
+}
+
+::selection {
+  color: white;
+  background: #c73a62;
+}
+
+body{
+  background-color:#f24173;
+}
+
+input[type=text]:focus{
+    border-color: black;
+}
+
+select option:not(:checked) {
+    background-color: black;
+}
+
+select option:checked {
+    background-color: black;
+}
+
+.panel_button{
+  background-color:#c73a62;
+}
+
+.selected_pane{
+  background-color:#f24173;
+}
+
+.custom-select select {
+  display: none;
+}
+
+.select-selected {
+  background-color: #c73a62;
+  outline:none;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid black;
+  border-color: black;
+  outline:none;
+}
+
+.select-selected.select-arrow-active:after {
+  border-color: black;
+  top: 7px;
+  outline:none;
+}
+
+.select-items div,.select-selected {
+  color: white;
+  padding: 5px 5px;
+  border: 1px solid black;
+  border-color: black;
+}
+
+.select-items {
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: black;
+}
+
+.cartoon_titles{
+  border-color: black;
+  background-color: black;
+  color: #f24173;
+}
+
+.picture_container{
+  background-color:black;
+	border-color: black;
+  color:white;
+}
+
+.picture_container_private{
+  background-color:#f24173;
+  border-color: black;
+  color:white;
+}
+
+.img_settings{
+	background-image: url("../img/purple/settings.png");
+}
+
+.img_settings:hover{
+	background-image: url("../img/purple/settings_hover.png");
+}
+
+.img_favorite_selected{
+  background-image: url("../img/purple/favorites_hover.png");
+}
+
+.img_favorite_selected_fav{
+  background-image: url("../img/purple/favorites_hover.png");
+}
+
+.img_lock{
+  background-image: url("../img/purple/lock.png");
+}
+.img_unlock{
+  background-image: url("../img/purple/unlock.png");
+}
+
+div.ui-widget-header {
+  border: 1px solid #3b678e;
+  background: black url("../plugin/images/ui-bg_gloss-wave_16_121212_500x100.png") 50% 50% repeat-x;
+  color: white;
+  font-weight: bold;
+  border-radius:10px !important;
+}
+
+.ui-widget-content{
+  background-color: #f24173 !important;
+}
+
+.ui-button{
+  background-color: black !important;
+  color: white !important;
+  border-radius:10px !important;
+}
+
+.clear_field{
+  background-image: url("../img/purple/delete.png");
+}
+
+#delete_album{
+	background-color: black;
+  color: white
+}
+
+#delete_album:hover{
+	background-color: red;
+}
+
+#add_new_album{
+	background-image: url("../img/purple/add_album.png");
+}
+
+#add_new_album:hover{
+	background-image: url("../img/purple/add_album_hover.png");
+}
+
+#show_favorites{
+	background-image: url("../img/purple/favorites.png");
+}
+
+#show_favorites:hover{
+	background-image: url("../img/purple/favorites_hover.png");
+}
+
+#gallery_config{
+	background-image: url("../img/purple/settings_black.png");
+}
+
+#gallery_config:hover{
+	background-image: url("../img/purple/settings.png");
+}
+
+#go_home{
+	background-image: url("../img/purple/home.png");
+}
+
+#go_home:hover{
+  background-image: url("../img/purple/home_hover.png");
+}
